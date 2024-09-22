@@ -112,8 +112,8 @@ The **NFT Diplomas DApp** is a decentralized platform for issuing, verifying, an
   ```
 
 ## Deployment Information
-- **Smart Contract Address**: `https://explorer.aptoslabs.com/txn/46516299?network=devnet`
-- **Transaction**: 0x0d7e060efcfd49a0d5647803fd2cd4eef70a0a14b3f53c24d19c2b122a42513a
+- **Smart Contract Address**: `https://explorer.aptoslabs.com/account/6f2b991132967e395ea562b4f30dde566060626bae0d8cb508d7b750dfb88762?network=devnet`
+- **Transaction**: 0x6f2b991132967e395ea562b4f30dde566060626bae0d8cb508d7b750dfb88762
 - **Aptos Devnet URL**: `https://fullnode.devnet.aptoslabs.com`
 
 ## Contact Information
