@@ -1,18 +1,14 @@
-Here's the README for your **NFT Diplomas** project, following the same structure as the previous one. You can directly paste this into your GitHub README file:
-
----
-
-# NFT Diplomas DApp on Aptos
+# Blockchain Quiz DApp on Aptos
 
 ## Project Vision
-The **NFT Diplomas DApp** is a decentralized platform for issuing, verifying, and managing diplomas as **Non-Fungible Tokens (NFTs)** on the **Aptos blockchain**. Universities and institutions can issue NFT diplomas to graduates, providing them with tamper-proof, verifiable digital credentials. The **React** frontend enables users to view their diplomas, while the **Petra wallet** allows for secure authentication and transaction signing.
+The **Blockchain Quiz DApp** is a decentralized platform for creating, managing, and participating in quizzes on the **Aptos blockchain**. This application allows users to submit quiz questions and answers as **Non-Fungible Tokens (NFTs)**, ensuring that each quiz is immutable, verifiable, and tamper-proof. The **React** frontend provides an intuitive interface for users to interact with the quizzes, while the **Petra wallet** enables secure authentication and transaction signing.
 
 ## Features
-- **Decentralized Diploma Issuance**: Diplomas are minted as NFTs on the blockchain.
-- **Verifiable Digital Credentials**: Each diploma can be verified as authentic and unique.
-- **React Frontend**: Modern, responsive interface for managing diplomas.
-- **Aptos Move Smart Contracts**: Secure diploma issuance using the Aptos Move language.
-- **Petra Wallet Integration**: Petra wallet enables user authentication and transaction signing.
+- **Decentralized Quiz Management**: Quizzes are minted as NFTs on the blockchain.
+- **Immutable Quiz Records**: Each quiz can be verified as authentic and unique.
+- **React Frontend**: User-friendly interface for creating and answering quizzes.
+- **Aptos Move Smart Contracts**: Secure quiz creation and management using the Aptos Move language.
+- **Petra Wallet Integration**: Seamless user authentication and transaction signing.
 
 ## Tech Stack
 - **Frontend**: React.js
@@ -20,9 +16,9 @@ The **NFT Diplomas DApp** is a decentralized platform for issuing, verifying, an
 - **Wallet**: Petra Wallet
 
 ## How It Works
-1. **Issue a Diploma**: Institutions can mint diplomas as NFTs for graduates.
-2. **Store on Blockchain**: The diploma is stored immutably on the Aptos blockchain.
-3. **Verify Diplomas**: Diplomas can be verified for authenticity by checking the NFT on the blockchain.
+1. **Create a Quiz**: Users can mint quizzes as NFTs on the blockchain.
+2. **Store on Blockchain**: The quiz details are stored immutably on the Aptos blockchain.
+3. **Verify Quizzes**: Quizzes can be verified for authenticity by checking the NFT on the blockchain.
 4. **Petra Wallet**: Use Petra Wallet to sign and confirm blockchain transactions.
 
 ## Getting Started
@@ -37,8 +33,8 @@ The **NFT Diplomas DApp** is a decentralized platform for issuing, verifying, an
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/aptos-nft-diplomas.git
-   cd aptos-nft-diplomas
+   git clone https://github.com/yourusername/aptos-blockchain-quiz.git
+   cd aptos-blockchain-quiz
    ```
 
 2. Install frontend dependencies:
@@ -95,7 +91,7 @@ The **NFT Diplomas DApp** is a decentralized platform for issuing, verifying, an
 ### Usage
 - Go to the frontend URL (e.g., `http://localhost:3000` or deployed link).
 - Connect your **Petra Wallet**.
-- Universities can issue diplomas as NFTs, and graduates can view and verify their diplomas on the blockchain.
+- Users can create quizzes as NFTs and participate in them, ensuring that quiz results are verifiable on the blockchain.
 
 ## Aptos CLI Commands
 - **Check account balance**:
@@ -112,31 +108,32 @@ The **NFT Diplomas DApp** is a decentralized platform for issuing, verifying, an
   ```
 
 ## Deployment Information
-- **Smart Contract Address**: `https://explorer.aptoslabs.com/account/6f2b991132967e395ea562b4f30dde566060626bae0d8cb508d7b750dfb88762?network=devnet`
-- **Transaction**: 0x6f2b991132967e395ea562b4f30dde566060626bae0d8cb508d7b750dfb88762
+- **Smart Contract Address**: `https://explorer.aptoslabs.com/txn/24431169?network=devnet`
+- **Transaction**: `0x56c3f350fd70eac86cb0d943f889bdf0a33d7e3b8880bafbc079aff51d2e7714`
 - **Aptos Devnet URL**: `https://fullnode.devnet.aptoslabs.com`
+
+- ![image](https://github.com/user-attachments/assets/b0a38605-70b8-494a-9ef9-92f3ef8a80c4)
+
 
 ## Contact Information
 For inquiries or support, feel free to reach out:
 
 - **Name**: Harsh Shukla
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
-- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
+- **Email**: masteraman148@gmail.com
+- **LinkedIn**: `https://www.linkedin.com/in/aman-shukla-16b8501b9/`
+- **GitHub**: `https://github.com/masteraman148`
 
 ## Future Scope
-The NFT Diplomas DApp can be expanded and enhanced in the following ways:
-1. **Multi-Institution Support**: Expand the platform to allow multiple universities and institutions to issue diplomas.
-2. **Diploma Verification API**: Provide a public API for third parties (e.g., employers) to verify the authenticity of diplomas.
-3. **Mobile App Integration**: Build a mobile version of the DApp to allow easy access and verification.
-4. **Cross-chain Interoperability**: Expand the DApp to support NFT diplomas on other blockchain networks.
-5. **Alumni Networking**: Introduce a platform where alumni can network using verified NFT diplomas.
-6. **Student Achievement NFTs**: Extend the DApp to issue NFTs for other achievements, such as awards, certifications, and coursework.
-7. **Enhanced Security**: Implement features like multi-signature transactions for issuing diplomas or deleting NFTs for increased security.
+The Blockchain Quiz DApp can be expanded and enhanced in the following ways:
+1. **User Profiles**: Implement user profiles to track quiz participation and achievements.
+2. **Leaderboard**: Introduce a leaderboard system for users based on quiz performance.
+3. **Multilingual Support**: Expand the platform to support quizzes in multiple languages.
+4. **Quiz Categories**: Organize quizzes into categories for better user navigation.
+5. **Analytics Dashboard**: Provide analytics for quiz creators to analyze participation and performance.
+6. **Mobile App Integration**: Develop a mobile version of the DApp for easier access to quizzes.
+7. **Gamification**: Introduce badges and rewards for users who complete quizzes successfully.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-Feel free to adjust the links, contract address, and contact details as necessary before posting on GitHub! Let me know if you'd like any further refinements.
