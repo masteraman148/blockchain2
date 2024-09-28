@@ -1,0 +1,15 @@
+[package]
+name = "Blockchain_Quiz"
+version = "1.0.0"
+authors = []
+
+[addresses]
+quiz_blockchain = "f3c48c6361aac1a5449b1754b8930ffa4e0a43c851a2f889e640b041e8a0dee6"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
